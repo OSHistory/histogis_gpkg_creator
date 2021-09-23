@@ -34,6 +34,11 @@ digits at the end of the string (you can turn that behaviour off with `--no-year
 python3 histogis_dump_to_geopackage.py -d path/to/single_files/ -g histogis-geodata-source-group.gpkg -s 3857 
 ```
 
+This should result in something like this (QGIS-Import Screenshot): 
+
+![Qgis Scrrenshot Import](https://user-images.githubusercontent.com/9952252/134589064-9cc607d9-4494-491d-92b4-ecbc2e9d06d3.png)
+
+
 ### Group by parent 
 
 Alternatively you can group the features by their top level parent. 
